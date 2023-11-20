@@ -4,9 +4,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 import './index.css'; 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faBars, faShoppingCart, faTimes, faArrowLeft, faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faShoppingCart, faTimes, faArrowLeft, faStar, faStarHalfAlt, faBolt, faBookOpen, faTags } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faBars, faShoppingCart, faTimes, faArrowLeft, faStar, faStarHalfAlt);
+library.add(faBars, faShoppingCart, faTimes, faArrowLeft, faStar, faStarHalfAlt, faBolt, faBookOpen, faTags);
 
 ReactDOM.render(
   <React.StrictMode>
